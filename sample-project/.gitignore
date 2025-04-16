@@ -1,0 +1,43 @@
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Build directories
+/bin/
+/build/
+/target/
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/
+!**/src/main/**/.gitkeep
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ (just in case)
+.idea/
+*.iml
+*.iws
+out/
+
+# Others
+*.bak
+*.old
